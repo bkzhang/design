@@ -1,9 +1,11 @@
+@import "tools/fonts";
 @import "tools/normalize";
 @import "tools/bourbon/bourbon";
 
 @import "base/vars";
 @import "base/base";
 
-@import "modules/header";
+@import "sections/header";
+@import "sections/home-about";
 
 @import "layouts/home";

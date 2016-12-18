@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,400i");
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -486,7 +487,7 @@ body {
   min-height: 100vh; }
 
 body {
-  background: #F6F6F8;
+  background: white;
   font-size: 14px;
   line-height: 1.6;
   font-family: 'Fira Sans', sans-serif;
@@ -637,6 +638,25 @@ body {
         -ms-transform: translateY(0%);
             transform: translateY(0%); } }
 
+section.about {
+  background-image: url(../img/forest.jpg);
+  background-position: center bottom;
+  background-size: cover; }
+  section.about h2 {
+    color: #FFF498;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1;
+    margin-left: -108px;
+    margin-top: 0; }
+  section.about .home-lead {
+    padding-bottom: 180px; }
+  @media (max-width: 640px) {
+    section.about section.about h2, section.about section.about .home-lead {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 300px; } }
+
 .home-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -685,17 +705,17 @@ body {
 
 .col-1 {
   max-width: 620px;
-  margin: 0 10px;
-  background: pink; }
+  margin: 0 10px; }
 
 .col-2 {
   max-width: 300px;
-  margin: 0 10px;
-  background: skyblue; }
+  margin: 0 10px; }
 
 .col-50 {
-  width: 50%;
-  background: yellow; }
+  width: 50%; }
+
+.push-right {
+  margin-left: 330px; }
 
 @media (max-width: 640px) {
   .home-sections .flex {
@@ -703,4 +723,10 @@ body {
   .col-2 {
     max-width: 100%; }
   .col-50 {
-    width: auto; } }
+    width: auto; }
+  .push-right {
+    margin-left: 10px; } }
+
+.home-lead {
+  font-size: 36px;
+  line-height: 1.1; }
