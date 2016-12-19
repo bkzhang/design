@@ -5,7 +5,10 @@
 @import "base/vars";
 @import "base/base";
 
+@import "modules/buttons";
+
 @import "sections/header";
-@import "sections/home-about";
+@import "sections/home-one";
+@import "sections/home-two";
 
 @import "layouts/home";
